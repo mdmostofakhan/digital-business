@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "title": "Unlimited customizetion ",
+        "text": "Amet minimam mollit non deserunt ullamco est sit aliqua dolar do  amet sint",
+        "icons": "bxs:pen"
+    },
+    {
+        "id": 2,
+        "title": "Vactor Tracing",
+        "text": "Amet minimam mollit non deserunt ullamco est sit aliqua dolar do  amet sint",
+        "icons": "clarity:world-solid"
+    },
+    {
+        "id": 3,
+        "title": "Editing Freedom",
+        "icons": "fa6-solid:pen-to-square",
+        "text": "Amet minimam mollit non deserunt ullamco est sit aliqua dolar do  amet sint"
+       
+    },
+    {
+        "id": 4,
+        "title": "Best Award history",
+        "icons": "carbon:logo-vue",
+        "text": "Amet minimam mollit non deserunt ullamco est sit aliqua dolar do  amet sint"
+       
+    }
+]

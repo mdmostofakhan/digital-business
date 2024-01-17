@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 
 const Navbar = () => {
-  const text = ["Home", "Features", "About Us", "services", "Blog", "Contact"];
+  const text = ["Home", "Features", "About", "services", "Blog", "Contact"];
 
   const [isMenuOpen, setIsMenuOpen] = useState(null);
 
