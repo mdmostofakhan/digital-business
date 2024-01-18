@@ -20,18 +20,19 @@ const Business = () => {
 
         <div className="mt-16 grid grid-cols-4 justify-center text-center">
           {businesses?.map((business, index) => (
-            <div key={index} >
-             
-                <div className="w-1/2 mx-auto">
+            <div key={index}>
+              <div className="w-1/2 mx-auto">
                 <Icon
-                  className= {` ${(index == 1) ? 'bg-[#ffd04e]' : '' }  ${(index == 3) ? 'bg-[#ff9b77]' : '' } ${(index == 2) ? 'bg-[#21a4ea]' : '' } ${(index == 0) ? 'bg-[#37dcde]' : '' } border  w-32 h-32 p-7 rounded-xl text-white`}
-                  icon={business.icons} 
+                  className={` ${index == 1 ? "bg-[#ffd04e]" : ""}  ${
+                    index == 3 ? "bg-[#ff9b77]" : ""
+                  } ${index == 2 ? "bg-[#21a4ea]" : ""} ${
+                    index == 0 ? "bg-[#37dcde]" : ""
+                  } border  w-32 h-32 p-7 rounded-xl text-white`}
+                  icon={business.icons}
                 />
-                </div>
-              
-              <h1 className="mt-10 text-xl  font-bold">
-                {business.title}
-              </h1>
+              </div>
+              <h1 className="mt-10 text-xl  font-bold">{business.title}</h1>
+              <h1 className="mt-6 text-xl opacity-60 ">{business.text}</h1>
             </div>
           ))}
         </div>
