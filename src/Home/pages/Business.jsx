@@ -18,7 +18,7 @@ const Business = () => {
           Meet exciting business features idea
         </h1>
 
-        <div className="mt-16 grid grid-cols-4 justify-center text-center">
+        <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center md:gap-6 lg:gap-0 text-center">
           {businesses?.map((business, index) => (
             <div key={index}>
               <div className="w-1/2 mx-auto">
@@ -27,12 +27,12 @@ const Business = () => {
                     index == 3 ? "bg-[#ff9b77]" : ""
                   } ${index == 2 ? "bg-[#21a4ea]" : ""} ${
                     index == 0 ? "bg-[#37dcde]" : ""
-                  } border  w-32 h-32 p-7 rounded-xl text-white`}
+                  } border  w-32 h-32 p-7 mt-4 rounded-xl text-white`}
                   icon={business.icons}
                 />
               </div>
-              <h1 className="mt-10 text-xl  font-bold">{business.title}</h1>
-              <h1 className="mt-6 text-xl opacity-60 ">{business.text}</h1>
+              <h1 className="md:mt-10 m-4 text-xl  font-bold">{business.title}</h1>
+              <h1 className="md:mt-6 mt-4 text-xl opacity-60 ">{business.text}</h1>
             </div>
           ))}
         </div>

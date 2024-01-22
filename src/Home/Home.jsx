@@ -13,6 +13,7 @@ const Home = () => {
         <Business></Business>
         <SectionTow></SectionTow>
         <BusinessTow></BusinessTow>
+        <Home></Home>
        </div>
     );
 };
