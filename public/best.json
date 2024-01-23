@@ -4,21 +4,21 @@
         "title": "UI/UX Design",
         "text": "Amet minimam mollit non deserunt ullamco est sit aliqua dolar do  amet sint",
         "icons": "bxs:pen",
-        "button": "Read more"
+        "button": "Read mores"
     },
     {
         "id": 2,
         "title": "Graphic Design",
         "text": "Amet minimam mollit non deserunt ullamco est sit aliqua dolar do  amet sint",
         "icons": "clarity:world-solid",
-        "button": "Read more"
+        "button": "Read mores"
     },
     {
         "id": 3,
         "title": "Web Design",
         "icons": "fa6-solid:pen-to-square",
         "text": "Amet minimam mollit non deserunt ullamco est sit aliqua dolar do  amet sint",
-        "button": "Read more"
+        "button": "Reads more"
        
     },
     {

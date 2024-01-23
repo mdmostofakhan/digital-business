@@ -4,6 +4,7 @@ import Section from './Section';
 import Business from './pages/Business';
 import SectionTow from './pages/SectionTow';
 import BusinessTow from './pages/BusinessTow';
+import NewsSection from './pages/NewsSection';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
         <Business></Business>
         <SectionTow></SectionTow>
         <BusinessTow></BusinessTow>
-        <Home></Home>
+         <NewsSection></NewsSection>
        </div>
     );
 };

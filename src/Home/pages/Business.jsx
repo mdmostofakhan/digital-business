@@ -15,7 +15,7 @@ const Business = () => {
     <div className="bg-[rgb(246,252,252)] py-32 w-full">
       <div className=" w-[60%] container mx-auto ">
         <h1 className="text-4xl text-center  font-semibold text-black">
-          Meet exciting business features idea
+          Meet exciting business features idea new box 
         </h1>
 
         <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-center md:gap-6 lg:gap-0 text-center">

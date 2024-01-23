@@ -13,7 +13,7 @@ const Section = () => {
       </div>
       <div className="">
         <h1 className="font-bold text-2xl lg:text-5xl">About us our company</h1>
-        <p className="lg:mt-8 mt-4 md:text-2xl text-xl">Amet minimam mollit non deserunt ullamco est sit aliqua dolar do  amet sint. Velit officia consequat duis enim</p>
+        <p className="lg:mt-8 mt-4 md:text-2xl text-xl">Amet minimam mollit new items non deserunt ullamco est sit aliqua dolar do  amet sint. Velit officia consequat duis enim</p>
         <button className="border bg-yellow-400 px-6 text-white lg:text-xl py-2 md:mt-8 mt-4">Lorem more</button>
       </div>
     </div>
