@@ -5,6 +5,8 @@ import Business from './pages/Business';
 import SectionTow from './pages/SectionTow';
 import BusinessTow from './pages/BusinessTow';
 import NewsSection from './pages/NewsSection';
+import Solutions from './pages/Solutions';
+import Contact from './pages/Contact';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
         <SectionTow></SectionTow>
         <BusinessTow></BusinessTow>
          <NewsSection></NewsSection>
+         <Solutions></Solutions>
+         <Contact></Contact>
        </div>
     );
 };

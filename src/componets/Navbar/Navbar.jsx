@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(null);
 
   return (
-    <div className="mt-8">
+    <div className="py-6">
       <div className="flex justify-around items-center">
         <div className="flex justify-center items-center gap-4">
           <div className="relative">

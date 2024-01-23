@@ -43,6 +43,8 @@ const NewsSection = () => {
           ))}
         </div>
       </div>
+
+      
     </div>
   );
 };
