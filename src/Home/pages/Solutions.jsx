@@ -9,9 +9,9 @@ const Solutions = () => {
           Any Need Solutions Business Idea
         </h1>
 
-        <div className="bg-transparent relative mt-8 text-center bg-white">
+        <div className=" relative mt-8 text-center">
           <input
-            className={`p-4 w-[450px] text-center text-2xl`}
+            className={`p-4 lg:w-[450px] bg-white text-center text-2xl`}
             ems-center
             type="text"
             name="search"
