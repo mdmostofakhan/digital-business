@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="container mx-auto">
-      <div className="gap-20 my-12 grid grid-cols-2 justify-between ">
+      <div className="gap-20 my-28 grid grid-cols-2 justify-between ">
         <div className="w-full h-full">
           <img
             className="w-full h-full object-cover bg-no-repeat"
@@ -35,9 +35,9 @@ const Contact = () => {
                   <span className="text-xl  font-semibold">Frist Name</span>
                 </label>
                 <input
-                  className="bg-slate-300 p-3 mt-2 w-full text-xl"
+                  className="bg-slate-300 p-3 mt-2 w-full "
                   type="text"
-                  placeholder="Istaqul"
+                  placeholder=""
                   required
                 />
               </div>
@@ -46,9 +46,9 @@ const Contact = () => {
                   <span className="text-xl font-semibold">Last Name</span>
                 </label>
                 <input
-                  className="bg-slate-300 p-3 mt-2 w-full text-xl"
+                  className="bg-slate-300 p-3 mt-2 w-full"
                   type="text"
-                  placeholder="Istaqul"
+                  placeholder=""
                   required
                 />
               </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                 ></textarea>
               </div>
             </form>
-        <div className="flex justify-center items-center gap-5 mt-10"> 
+        <div className="flex gap-5 mt-10"> 
           <h1 className="text-3xl">Indicates a required field</h1>
           <button className="bg-blue-400 w-20 text-xl p-2">send</button>
         </div>
@@ -101,27 +101,3 @@ const Contact = () => {
 
 export default Contact;
 
-/**
- * <div className="w-96 flex-col lg:flex-row-reverse">
-    
-    <div className=" ">
-     <h1 className="text-3xl font-bold tracking-wide">Contuct Us</h1>
-     <p className="text-xl opacity-30">Amet minim mollit non deserunt ullamco est sit</p>
-      <form className="card-body">
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text text-2xl">Email</span>
-          </label>
-          <input type="email" placeholder="email" className="input input-bordered" required />
-        </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Password</span>
-          </label>
-          <input type="password" placeholder="password" className="input input-bordered" required />
-        </div>
-       
-      </form>
-    </div>
-  </div>
- */
