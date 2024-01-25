@@ -3,7 +3,8 @@ import { Icon } from '@iconify/react';
 
 const Footer = () => {
   return (
-    <div className="bg-blue-100 bg-opacity-40 py-12">
+    <div>
+       <div className="bg-blue-100 bg-opacity-40 py-12">
         <div className="mx-auto container ">
       <footer className="flex  justify-around items-center mt-12">
         <nav>
@@ -58,6 +59,10 @@ const Footer = () => {
         </div>
         </nav>
       </footer>
+    </div>
+    </div>
+    <div className="bg-blue-600 w-full py-12">
+        <h1 className="text-white text-2xl text-center">2024 copyright all reserved-primrose</h1>
     </div>
     </div>
   );

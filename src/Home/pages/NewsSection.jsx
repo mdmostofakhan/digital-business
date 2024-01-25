@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const NewsSection = () => {
   const [news, setNews] = useState();
-  console.log(news);
-
+  
   useEffect(() => {
     fetch("news.json")
       .then((res) => res.json())
